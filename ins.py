@@ -6,7 +6,7 @@ import uuid
 import shutil
 
 # Set page configuration
-st.set_page_config(page_title="Instagram Reel Downloader", page_icon="📸", layout="centered")
+st.set_page_config(page_title="Instagram Reel Downloader(Lavgram)", page_icon="📸", layout="centered")
 
 # Initialize Instaloader
 @st.cache_resource
@@ -21,7 +21,7 @@ def get_instaloader():
 L = get_instaloader()
 
 # Main content
-st.title("📸 Instagram Reel Downloader")
+st.title("📸 Instagram Reel Downloader(Lavgram)")
 st.markdown("Download Instagram reels directly from public links")
 
 # Input form
